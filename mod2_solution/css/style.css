@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    margin:0;
+}
+div{width: 100%; height: 500px;}
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+
+@media (min-width: 992px) {
+    section{
+        border: 1px solid black;
+        background-color: gray;
+        float:left;
+        margin: 1.5%;
+        width: 30%;
+
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    section{
+        border: 1px solid black;
+        background-color: gray;
+        float:left;
+        margin: 1.5%;
+        width: 45%;
+    }
+    #s3{
+        width: 93%;
+    }
+}
+@media (max-width: 767px) {
+    section{
+        border: 1px solid black;
+        background-color: gray;
+        float:left;
+        margin: 1.5%;
+
+    }
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+    clear: both;
+}
+p#p1{
+    text-align: center;
+    font-size: 120%;
+    background-color: rgb(235, 155, 181);
+    padding: 0;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    float:right;
+    font-weight:bold;
+}
+p#p2{
+    text-align: center;
+    font-size: 120%;
+    background-color: rgb(179, 4, 4);
+    color: rgb(255, 255, 255);
+    padding: 0;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    float:right;
+    font-weight:bold;
+}
+p#p3{
+    text-align: center;
+    font-size: 120%;
+    background-color: rgb(240, 240, 105);
+    padding: 0;
+    border: 1px solid black;
+    width: 150px;
+    height: 30px;
+    float:right;
+    font-weight:bold;
+}
+
